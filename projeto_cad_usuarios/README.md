@@ -18,3 +18,4 @@ Logo em seguida, nós fazemos o que iremos exibir com html, css e js (frontend) 
 No urls.py iremos criar a estrutura de rota, view responsável e nome de referência. Caso eu queira simplesmente acessar a página inicial colocamos apenas '' mas se quisermos algo específico colocamos um erickgabriel/, ou seja, o que vem depois youtube.com/erickgabriel/;
 Criamos uma função no views.py que diz o que fazer quando chegarmos na url que foi criada, então importamos o views pro urls.py;
 A função é criada passando um request que é um parametro imbutido do django que te permite acessar os dados dentro daquela página e usamos um return render(request, 'usuarios/home.html');
+Criamos a pasta templates e dentro dela criamos a pasta usuarios e colocamos nosso html lá dentro;
